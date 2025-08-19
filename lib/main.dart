@@ -116,7 +116,7 @@ class _AnimatedPageViewState extends State<AnimatedPageView> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    // First text (size + position animation)
+                    
                     AnimatedSlide(
                       duration: const Duration(milliseconds: 500),
                       curve: Curves.easeInOut,
@@ -162,7 +162,7 @@ class _AnimatedPageViewState extends State<AnimatedPageView> {
                                   ),
                                 ),
                               if (m.third != null) ...[
-                                // const SizedBox(height: 8),
+                              
                                 Text(
                                   m.third!,
                                   style: const TextStyle(
